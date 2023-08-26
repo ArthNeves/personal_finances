@@ -81,7 +81,7 @@ def main():
             st.write(f'*20% para* `Coisas que quero`: **R${wants:.2f}**')
             st.write(f'*20% para* `Fundo de Investimentos e Emergência`: **R${investments:.2f}**')
             st.write(f'*10% para* `Autodesenvolvimento`: **R${development:.2f}**')
-        if st.button('Save to CSV'):
+        if st.button('Save'):
             save_to_csv(pd.DataFrame({
                 'Category': ['Expenses', 'Wants', 'Investments', 'Development', 'Data'],
                 'Amount': [expenses, wants, investments, development, pd.Timestamp.now()],
@@ -105,7 +105,7 @@ def main():
             st.write(f'`Crypto`: **R${crypto:.2f}**')
             st.write(f'`Tesouro direto`: **R${gold:.2f}**')
             st.write(f'`Fundos imobiliários`: **R${reits:.2f}**')
-        if st.button('Save to CSV'):
+        if st.button('Save'):
             save_to_csv(pd.DataFrame({
                 'Asset': ['Fundos de dívida externa', 'Fundos de ações', 'Crypto', 'Tesouro direto', 'Fundos imobiliários'],
                 'Amount': [debt_funds, equity_funds, crypto, gold, reits],
