@@ -139,9 +139,8 @@ def main():
 
         * Github Repo of ContaCerta - 
         * Connect me on LinkedIn - https://www.linkedin.com/in/arthur-neves-perfil/
-        # Feedback
-            https://www.notion.so/Feedbacks-5441638510dc48609d6431afff6d9d2a?pvs=4
-
+        ### Feedback
+            Please submit via LinkedIn
         ''')
 
 if __name__ == "__main__":
